@@ -20,7 +20,7 @@ export default function App() {
   };
 
   return (
-    <form onClick={handleSubmit}>
+    <form onSubmit={handleSubmit}>
       <div>
         <label htmlFor="userName">
           Username:
